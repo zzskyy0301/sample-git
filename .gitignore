@@ -1,1 +1,8 @@
-log.txt
+时间：一个月
+需求：
+模块一：跟踪模块：输入视频数据（视频数据已经带有unique ID，bbox，位置等标注），利用centertrack模型进行多目标跟踪。
+
+模块二：预测模块：利用跟踪得到的轨迹作为预测模块输入，可以用LSTM这样的基础算法，预测下面几秒的物体轨迹。
+
+数据集：网上搜索visdrone下载即可。
+centertrack文献和github：https://github.com/xingyizhou/CenterTrack
